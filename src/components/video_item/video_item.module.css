@@ -1,0 +1,50 @@
+.body {
+  background-color: #181818;
+}
+
+.container {
+  border: 1px solid gainsboro;
+  padding: 0.2em;
+}
+
+.container.grid {
+  width: 50%;
+}
+
+.container.list {
+  width: 100%;
+}
+
+.video {
+  cursor: pointer;
+  transition: transform 250ms ease-in;
+}
+
+.video:hover {
+  transform: scale(1.01);
+}
+
+.thumbnail {
+  height: 100%;
+  width: 60%;
+}
+
+.metadata {
+  margin-top: 0.3em;
+}
+
+.title,
+.channel {
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.title {
+  color: #030303;
+  font-weight: 600;
+}
+
+.channel {
+  font-size: 0.7rem;
+  color: #606060;
+}

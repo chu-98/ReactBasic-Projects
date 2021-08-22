@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  height: 4rem;
+  padding: 0.7em 1em;
+  background-color: #202020;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 1em;
+}
+
+.img {
+  width: 3em;
+  margin-right: 0.2em;
+}
+
+.input {
+  flex-basis: 100%;
+  font-size: 1rem;
+  color: white;
+  outline: 0;
+  background-color: #121212;
+  border: 0.1em solid #4d4d4d;
+}
+
+.buttonImg {
+  height: 100%;
+  padding: 0.4em 0.2em;
+}
+
+.button {
+  background-color: #4d4d4d;
+  border: 0;
+}
