@@ -4,4 +4,10 @@
 
 .description {
   white-space: pre-wrap;
+  font-family: "Open Sans", sans-serif;
+}
+
+.title {
+  border-bottom: 1px solid grey;
+  padding-bottom: 0.7em;
 }
