@@ -5,6 +5,7 @@ import VideoDetail from "./components/video_detail/video_detail";
 import Videolist from "./components/video_list/video_list";
 
 function App({ youtube }) {
+  // React Hook에 대해서 더 배운 뒤, 이 부분을 다시 이해해보자!
   const [videos, setVideos] = useState([]);
   const [selectedVideo, setSelectedVideo] = useState(null);
 
