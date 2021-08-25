@@ -23,10 +23,10 @@ const SearchHeader = ({ onSearch }) => {
 
   return (
     <header className={styles.header}>
-      <div className={styles.logo}>
+      <buttom className={styles.logo}>
         <img className={styles.img} src="/img/youtube_logo.png" alt="logo" />
         <h1 className={styles.title}>Youtube</h1>
-      </div>
+      </buttom>
       <input
         ref={inputRef}
         className={styles.input}
@@ -42,3 +42,5 @@ const SearchHeader = ({ onSearch }) => {
 };
 
 export default SearchHeader;
+
+// Jandi Get It
